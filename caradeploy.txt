@@ -1,0 +1,16 @@
+di connect dilu ec2 linux
+
+
+// masuk ke root awal
+sudo su -
+
+// untuk update sistem
+yum update -y
+
+//status http
+systemctl status httpd
+
+//
+mkdir temp
+
+cd temp
