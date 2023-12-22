@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
+  "private": true,
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "deploy": "gcloud app deploy"
   },
   "keywords": [],
   "author": "",
